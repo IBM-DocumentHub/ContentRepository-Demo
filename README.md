@@ -7,7 +7,7 @@ This demo content repository can be used for read/write operations by authorizin
 There are 2 branches:
 - main
   - catalog ID: ziEGJ6RJ
-  - only read access
+  - read access only
 - demo
   - catalog ID: demo
   - read and write access
