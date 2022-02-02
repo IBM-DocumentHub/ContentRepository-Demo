@@ -1,6 +1,8 @@
 {
+  "version": 8,
   "title": "Demo Content Repository",
   "owners": {"f": ["all"]},
+  "creators": {},
   "editors": {},
   "viewers": {"all": ["all"]},
   "previewers": {},
@@ -17,5 +19,135 @@
     ],
     "history": false
   },
+  "schema": [
+    {
+      "type": "heading",
+      "label": "Personal Details"
+    },
+    {
+      "type": "separator",
+      "label": "Web Page Details"
+    },
+    {
+      "field": "published",
+      "type": "checkbox",
+      "label": "Published"
+    },
+    {
+      "field": "url",
+      "type": "url",
+      "label": "Web URL"
+    },
+    {
+      "field": "theme",
+      "type": "color",
+      "label": "Theme Color"
+    },
+    {
+      "field": "publish-date",
+      "type": "date",
+      "label": "Published On"
+    },
+    {
+      "field": "range",
+      "type": "range",
+      "label": "Assigned Resources",
+      "attr": {
+        "min": "0",
+        "max": "100",
+        "step": "10",
+        "value": "90"
+      }
+    },
+    {
+      "type": "separator",
+      "label": "Profile Details"
+    },
+     {
+      "field": "title",
+      "type": "text",
+      "label": "Developer"
+    },
+    {
+      "field": "description",
+      "type": "textarea",
+      "label": "Description"
+    },
+    {
+      "field": "email",
+      "type": "email",
+      "label": "Email"
+    },
+    {
+      "field": "area",
+      "type": "select",
+      "label": "Area",
+      "values": [
+        "Frontend",
+        "Backend",
+        "Full Stack"
+      ]
+    },
+    {
+      "field": "skills",
+      "type": "multiselect",
+      "label": "Skills",
+      "values": [
+        "JS",
+        "PHP",
+        "GO"
+      ]
+    },
+    {
+      "field": "years",
+      "type": "number",
+      "label": "Experience in years"
+    },
+    {
+      "field": "file",
+      "type": "file",
+      "label": "Change Profile Image"
+    },
+    {
+      "field": "profile",
+      "type": "image",
+      "label": "Profile Image",
+      "attr": {
+        "src": "https://via.placeholder.com/480x135.png?text=<^o^>",
+        "width": "240",
+        "height": "135"
+      }
+    },
+    {
+      "field": "password",
+      "type": "password",
+      "label": "Change Password"
+    },
+    {
+      "field": "password",
+      "type": "password",
+      "label": "Password Confirm"
+    },
+    {
+      "field": "phone",
+      "type": "phone",
+      "label": "Phone Nr."
+    },
+    {
+      "field": "active",
+      "type": "radio",
+      "label": "Go Public"
+    },
+    {
+      "field": "search",
+      "type": "search",
+      "label": "Search for People"
+    },
+    {
+      "field": "schedule",
+      "type": "time",
+      "label": "Schedule"
+    }
+  ],
   "documentsInfo": {}
 }
