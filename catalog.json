@@ -3,7 +3,7 @@
   "title": "Demo Content Repository",
   "owners": {"f": ["all"]},
   "creators": {},
-  "editors": {},
+  "editors": {"all": ["all"]},
   "viewers": {"all": ["all"]},
   "previewers": {},
   "copyright": {},
