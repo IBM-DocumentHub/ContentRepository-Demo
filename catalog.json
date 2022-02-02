@@ -4,7 +4,7 @@
   "owners": {"f": ["all"]},
   "creators": {},
   "editors": {},
-  "viewers": {"libraryA": ["all"]},
+  "viewers": {"all": ["all"]},
   "previewers": {},
   "copyright": {},
   "info": {},
