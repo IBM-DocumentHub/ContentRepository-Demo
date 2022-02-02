@@ -1,4 +1,6 @@
 {
     "title": "Demo HTML course",
-    "description": "A course example with four modules and a quiz"
+    "description": "A course example with four modules and a quiz",
+		"type": "demo",
+		"category": "demo"
 }

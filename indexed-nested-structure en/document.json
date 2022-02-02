@@ -3,6 +3,7 @@
     "language": "en",
     "status": "Pending",
     "type": "Course",
+		"category": "Cloud",
     "timetype": "Self-paced",
     "duration": "30",
     "certificate": "Badge",

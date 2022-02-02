@@ -1,4 +1,6 @@
 {
   "title": "Meta Only Document",
-  "description": ""
+  "description": "Document without content",
+	"type": "document",
+	"category": "free"
 }
