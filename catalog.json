@@ -2,7 +2,7 @@
   "version": 8,
   "title": "Demo Content Repository",
   "owners": {"f": ["all"]},
-  "creators": {},
+  "creators": {"all": ["all"]},
   "editors": {},
   "viewers": {"all": ["all"]},
   "previewers": {},
